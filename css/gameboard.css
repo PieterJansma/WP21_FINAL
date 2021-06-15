@@ -1,0 +1,61 @@
+html, body {
+    background-color: lightseagreen;
+    transition: background-color 1s linear;
+}
+
+#main {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+.game-board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.game-area {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.tile {
+    max-width: 170px;
+    min-width: 170px;
+    max-height: 170px;
+    min-height: 170px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+p {
+    font-family: Arial, cursive;
+    position: relative;
+    top: 2px;
+    color: darkslategrey;
+}
+
+.info {
+    margin-top: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    border: 5px;
+    border-radius: 10px;
+}
+
+.path {
+    stroke-dasharray: 700;
+    stroke: skyblue;
+    stroke-dashoffset: 0;
+}
+
+
+
+
